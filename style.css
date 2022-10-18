@@ -1,0 +1,34 @@
+body { cursor: default; }
+
+.modal { text-align: center; padding-top: 160px; }
+.modal .title { font-size: 20px; font-weight: bold; padding-top: 10px; }
+.modal .body { font-size: 18px; }
+
+@font-face
+{
+    font-family: "OpenSans-Light";
+    src: url("dist/fonts/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face
+{
+    font-family: "OpenSans-BOLD";
+    src: url("dist/fonts/OpenSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaT-Thin';
+    src: url("dist/fonts/ProximaNovaT-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaT-Bold';
+    src: url("dist/fonts/11096.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

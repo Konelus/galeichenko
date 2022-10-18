@@ -1,0 +1,54 @@
+<header class = 'col-lg-12 col-md-12 col-sm-12 col-xs-12' id = 'enh_page'>
+
+    <div class = 'container-fluid header-main'>
+        <div class = 'container'>
+
+            <div class = 'img-div'>
+                <div class = 'hidden-sm hidden-xs img-div-desktop'>
+                    <img src = '/img/logo.png' alt="Уникальный мастер-класс Михаила Галейченко">
+                </div>
+
+                <div class = 'hidden-lg hidden-md col-sm-8 col-xs-8 '>
+                    <img src = '/img/logo.png' alt="Уникальный мастер-класс Михаила Галейченко">
+                </div>
+            </div>
+
+            <div class = 'hidden-sm hidden-xs nav-div-desktop'>
+                <nav>
+                    <ul class = 'nav nav-tabs'>
+                        <li role = 'presentation'><a href = '#you_get'>О МАСТЕР-КЛАССЕ</a></li>
+                        <li role = 'presentation'><a href = '#about'>ОБ АВТОРЕ</a></li>
+                        <li role = 'presentation'><a href = '#in_result'>ПРОГРАММА</a></li>
+                        <li role = 'presentation'><a href = '#feedbacks'>ОТЗЫВЫ</a></li>
+                        <li role = 'presentation'><a href = '#contacts'>КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class = 'hidden-lg hidden-md col-sm-4 col-xs-4 nav-div-phone-btn'>
+                <button onClick = "$('#small_nav').removeClass('hidden');" type = 'button' class = 'btn navbar-toggler' data-toggle = 'collapse' data-target = '.navbar-backyard'>
+                    <span class = 'sr-only'>Toggle navigation</span>&#x2630;
+                </button>
+            </div>
+
+            <div class = 'nav-div-phone'>
+                <nav>
+                    <ul id = 'small_nav' class = 'nav hidden-lg hidden-md navbar-nav hidden'>
+                        <li role = 'presentation'>
+                            <a onClick = "$('#small_nav').addClass('hidden');" href = '#you_get'>О МАСТЕР-КЛАССЕ</a>
+                        </li>
+                        <li role = 'presentation'>
+                            <a onClick = "$('#small_nav').addClass('hidden');" href = '#about'>ОБ АВТОРЕ</a>
+                        </li>
+                        <li role = 'presentation'>
+                            <a onClick = "$('#small_nav').addClass('hidden');" href = '#in_result'>ПРОГРАММА</a>
+                        </li>
+                        <li role = 'presentation'>
+                            <a onClick = "$('#small_nav').addClass('hidden');" href = '#feedbacks'>ОТЗЫВЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
